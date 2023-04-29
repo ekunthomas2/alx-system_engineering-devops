@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#kills the To infinity and beyond indefinitely infinity loop.
+PID=$(pgrep -f "4-to_infinity_and_beyond.sh")
+
+# Kill the process using the PID
+kill "$PID"
